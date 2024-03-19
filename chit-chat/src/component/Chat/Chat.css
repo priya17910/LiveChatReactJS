@@ -1,0 +1,98 @@
+.chatPage {
+    background-color: darkslategray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatContainer {
+    background-color: white;
+    height: 90%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.header {
+    background-image: linear-gradient(rgb(62, 154, 188), rgb(98, 204, 165), rgb(169, 242, 81));
+    /* background-color: lightcoral; */
+    height: 15%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header > h2 {
+    color: white;
+    margin: 2.5vmax;
+}
+
+.header > a > svg {
+    margin: 2.5vmax;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 2vmax;
+    color: white;
+}
+
+.header > img:hover {
+    transform: scale(1.1);
+}
+
+
+.chatBox {
+    border: none;
+    height: 78%;
+    box-sizing: border-box;
+    /* overflow-y: auto; */
+}
+
+.inputBox {
+    border-top: 1px solid gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 7%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#chatInput {
+    width: 85%;
+    border: none;
+    padding: 1vmax;
+    background-color: white;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    font-family: cursive;
+}
+
+.sendBtn {
+    background-image: linear-gradient(rgb(62, 154, 188), rgb(98, 204, 165), rgb(169, 242, 81));
+    color: white;
+    border: none;
+    padding-left: 0.5vmax;
+    padding-right: 0.5vmax;
+    padding-top: 0.3vmax;
+    padding-bottom: 0.7vmax;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    width: 15%;
+    transition: all 1s;
+}
+
+.sendBtn svg {
+    width: 3vmax;
+}
+
+.sendBtn:hover svg {
+    transform: translateZ(5px);
+    /* background-image: linear-gradient(rgb(11, 106, 141), rgb(6, 96, 63), rgb(80, 130, 19)); */
+    /* transform: scale(1.1); */
+    transform: scale(1.1);
+}

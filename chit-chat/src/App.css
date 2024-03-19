@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (max-aspect-ratio: 7/10) {
+    .JoinContainer {
+        width: 100% !important;
+    }
+
+    .JoinContainer > img {
+        width: 30vw !important;
+    }
+
+    .JoinContainer > h1 {
+        font-size: 6vw !important;
+        width: 55vw !important;
+        border-radius: 0.2vmax solid white !important;
+        padding: 3vw !important;
+    }
+
+    #joinInput {
+        width: 65vw !important;
+        padding: 4vw !important;
+        border: none;
+        outline: none;
+        font-size: 5vw !important;
+        margin: 5vw !important;
+        box-sizing: border-box;
+    }
+    .chatContainer {
+        background-color: white;
+        height: 100% !important;
+        width: 100vh !important;
+    }
+    
+    .chatPage {
+        background-color: darkslategray;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
